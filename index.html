@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website showcasing my CV, projects, and accomplishments.">
+    <meta name="author" content="Pin Xin">
+    <title>Pin Xin | Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 0 10%;
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .project-card {
+            margin-bottom: 30px;
+        }
+        .project-button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .project-button:hover {
+            background-color: #555;
+        }
+        .project-button i {
+            margin-right: 10px;
+        }
+        #profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        #profile {
+            display: flex;
+            align-items: center;
+        }
+        #profile div {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Pin Xin</h1>
+    <p>Game Developer | Author | Blogger</p>
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+    <a href="#profile">About Me</a>
+    <a href="#cv">CV</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Profile Section -->
+<section id="profile">
+    <img src="images/your-image.jpg" alt="Image description" style="max-width: 100%; height: auto;">
+
+    <div>
+        <h2>Hello, I'm Pin Xin!</h2>
+        <p>I'm a creative game developer, author, and blogger. I specialize in designing interactive games, writing compelling narratives, and sharing my thoughts on technology and life through my blog.</p>
+    </div>
+</section>
+
+<!-- CV Section -->
+<section id="cv">
+    <h2>Curriculum Vitae (CV)</h2>
+    <div class="card">
+        <h3>Education</h3>
+        <ul>
+            <li><strong>Degree:</strong> Bachelor of Science in Computer Science, University Name (Graduated: 2020)</li>
+            <li><strong>Certification:</strong> Full Stack Web Development - XYZ Academy (Completed: 2022)</li>
+        </ul>
+    </div>
+    <div class="card">
+        <h3>Experience</h3>
+        <ul>
+            <li><strong>Game Developer</strong> - Studio Name (2022–Present)</li>
+            <li><strong>Author & Blogger</strong> - Self-Employed (2019–Present)</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <!-- Game Project -->
+    <div class="project-card">
+        <h3>Project 1: The Adventure Game</h3>
+        <p>A 3D action-adventure game developed using Unity. Explore a magical world and complete quests!</p>
+        <button class="project-button" onclick="window.location.href='game.html'">
+            <i class="fas fa-gamepad"></i> Learn More About the Game
+        </button>
+    </div>
+
+    <!-- Book Project -->
+    <div class="project-card">
+        <h3>Project 2: The Magic of Storytelling</h3>
+        <p>A book exploring how narrative shapes games. Available for purchase online.</p>
+        <button class="project-button" onclick="window.location.href='book.html'">
+            <i class="fas fa-book"></i> Learn More About the Book
+        </button>
+    </div>
+
+    <!-- Blog Project -->
+    <div class="project-card">
+        <h3>Project 3: Personal Insights</h3>
+        <p>A blog where I share my thoughts on gaming, storytelling, and tech.</p>
+        <button class="project-button" onclick="window.location.href='blog.html'">
+            <i class="fas fa-blog"></i> Visit My Blog
+        </button>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out:</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/yourusername">github.com/yourusername</a></li>
+    </ul>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Pin Xin. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
